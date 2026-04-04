@@ -1,6 +1,5 @@
-# 🧮 Mini Calculator in C++
-
-A simple interactive command-line calculator built in C++.  
+🧮 Mini Calculator in C++
+A simple interactive command-line calculator built in C++.
 Great as a first C++ project — clean, readable, and covers core concepts.
 
 ---
@@ -12,13 +11,10 @@ Great as a first C++ project — clean, readable, and covers core concepts.
 - Division by zero protection
 - Clean error messages for invalid input
 
----
 
-## 🚀 How to Compile & Run
-
-### On Linux / Mac
-```bash
-g++ main.cpp -o calculator
+🚀 How to Compile & Run
+On Linux / Mac
+bashg++ main.cpp -o calculator
 ./calculator
 ```
 
@@ -32,7 +28,7 @@ calculator.exe
 
 ## 🖥️ Example Usage
 
-```
+🖥️ Example Usage
 ===== Mini Calculator =====
 Enter first number: 10
 Enter operator (+, -, *, /): /
@@ -52,51 +48,32 @@ Error: Division by zero!
 
 ## 📁 Project Structure
 
-```
+📁 Project Structure
 mini-calculator/
 ├── main.cpp       # Main source code
 ├── README.md      # This file
 └── .gitignore     # Ignores compiled output files
-```
 
----
+🧠 Concepts Used
+ConceptWhereFunctionsadd(), subtract(), multiply(), divide()double typeHandles decimal numberschar typeStores the operator characterswitch statementSelects the right operationcin / coutUser input and outputError handlingDivision by zero check
 
-## 🧠 Concepts Used
+🛠️ Requirements
 
-| Concept | Where |
-|--------|-------|
-| Functions | `add()`, `subtract()`, `multiply()`, `divide()` |
-| `double` type | Handles decimal numbers |
-| `char` type | Stores the operator character |
-| `switch` statement | Selects the right operation |
-| `cin` / `cout` | User input and output |
-| Error handling | Division by zero check |
+A C++ compiler — g++ recommended
+C++11 or later (default on most systems)
 
----
 
-## 🛠️ Requirements
+🔮 Possible Improvements
 
-- A C++ compiler — **g++** recommended
-- C++11 or later (default on most systems)
+Add a loop so the user can calculate multiple times
+Add calculation history
+Support for more operations (power, square root)
+Build a graphical UI
 
----
 
-## 🔮 Possible Improvements
+👤 Author
+Your Name
+GitHub: @afrabouzehar
 
-- Add a loop so the user can calculate multiple times
-- Add calculation history
-- Support for more operations (power, square root)
-- Build a graphical UI
-
----
-
-## 👤 Author
-
-**Your Name**  
-GitHub: [@afrabouzehar](https://github.com/afrabouzehar)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+📄 License
+This project is open source and available under the MIT License.
