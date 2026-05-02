@@ -90,9 +90,7 @@ mini-calculator/
 
 ---
 
-## 👤 Author
-
-**Your Name**  
+## 👤 Author  
 GitHub: [@afrabouzehar](https://github.com/afrabouzehar)
 
 ---
